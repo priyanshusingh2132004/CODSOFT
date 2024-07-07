@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,11 +17,11 @@ nav{
 }
 
 nav ul {
-    list-style: none;
+    list-style:none;
     display: flex;
-    justify-content: center;
+    justify-content:right;
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 nav ul li {
@@ -29,7 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #d3d7f8;
     text-decoration: none;
 }
 
@@ -78,9 +78,10 @@ nav ul li a:hover {
 
 /* Features Section */
 #features {
+    background-color: rgb(131, 145, 237);
     padding: 50px 20px;
     text-align: center;
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -108,6 +109,7 @@ nav ul li a:hover {
 #contact {
     padding: 50px 20px;
     text-align: center;
+    background-color: rgb(161, 161, 243);
 }
 
 #contact form {
@@ -125,7 +127,7 @@ nav ul li a:hover {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #01000b;
     border-radius: 5px;
 }
 
@@ -145,7 +147,7 @@ nav ul li a:hover {
 
 /* Footer */
 footer {
-    background-color: black;
+    background-color: rgb(26, 25, 34);
     color: #fff;
     text-align: center;
     padding: 20px 0;
