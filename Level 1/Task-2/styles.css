@@ -1,5 +1,7 @@
 *{
-    background-image: url("bg.jpg");
+    
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 body {
     font-family: Arial, sans-serif;
@@ -7,8 +9,10 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: transparent;
     transition: background-color 0.5s, color 0.5s;
+    background-image: url("bg.webp");
+    background-size: 100%;
+
 }
 
 header {
@@ -41,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -52,12 +56,16 @@ nav ul li a:hover {
 
 .section {
     padding: 40px 20px;
-    background-color: transparent;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: transparent;
     margin: 20px;
-    border-radius: 10px;
-    transform-style: preserve-3d;
-    transition: transform 0.3s;
+    border-radius: 10px
+}
+
+.content-resume{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .section:hover {
@@ -68,6 +76,7 @@ nav ul li a:hover {
     max-width: 800px;
     margin: auto;
     text-align: left;
+    display: flex;
 }
 
 .profile-img {
@@ -82,16 +91,13 @@ nav ul li a:hover {
 }
 
 .skills-list li {
-    background:transparent;
     margin: 10px 0;
     padding: 10px;
-    border-left: 5px solid #333;
-    transition: background-color 0.3s, transform 0.3s;
-}
+    border-left: 5px solid #524d4d;}
+
 
 .skills-list li:hover {
     background-color: #ddd;
-    transform: translateX(10px);
 }
 
 .projects-container {
@@ -116,11 +122,14 @@ nav ul li a:hover {
 }
 
 footer {
-    background: #333;
+    background: black;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    transition: background-color 0.5s;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
 }
 
 button {
